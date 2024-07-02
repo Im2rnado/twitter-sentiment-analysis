@@ -30,9 +30,9 @@ Several machine learning models are used to analyze the sentiment of the tweets:
 - `Tweet`: The content of the tweet.
 
 ```
-Tweet_ID,Sentiment,Tweet
-1,1,"I love carrots!"
-2,0,"I hate broccoli."
+Tweet_ID,Tweet,Sentiment
+1,"I love carrots!",1
+2,"I hate broccoli.",0
 ...
 ```
 
