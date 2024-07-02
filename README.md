@@ -1,8 +1,5 @@
 # Sentiment Analysis on Tweets
-This project aims to perform sentiment analysis on tweets related to various vegetables. Using machine learning models, the sentiment of each tweet is classified as either positive or negative. The models used are: Logistic Regression, Decision Trees, KNN, Random Forest, XG Boost, SVM, and NLP (RoBERTa)
-
-## Objective
-The objective of this project is to accurately classify the sentiment of each tweet in the test dataset as either positive (1) or negative (0). This was made originally for a Kaggle Competition, where it ended up in 1st place with a 99% accuracy.
+This project aims to perform sentiment analysis on tweets related to various vegetables. Using machine learning models, the sentiment of each tweet is classified as either positive or negative. The models used are: Logistic Regression, Decision Trees, KNN, Random Forest, XG Boost, SVM, and NLP (RoBERTa). This project was made originally for a Kaggle Competition, where it ended up in 1st place with a 99% accuracy.
 
 ## Models Used
 Several machine learning models are used to analyze the sentiment of the tweets:
