@@ -23,14 +23,12 @@ Several machine learning models are used to analyze the sentiment of the tweets:
 |RoBERTa            |0.99         |0.99           |
 
 ## Dataset
-The dataset consists of tweets, labeled with a sentiment score:
 
-### Training Dataset
+### Training Dataset is expected to be a CSV file with the following structure:
 - `Tweet_ID`: A unique integer identifying the tweet.
 - `Sentiment`: The sentiment of the tweet (1 for positive, 0 for negative).
 - `Tweet`: The content of the tweet.
 
-The training dataset is expected to be a CSV file with the following structure:
 ```
 Tweet_ID,Sentiment,Tweet
 1,1,"I love carrots!"
@@ -38,11 +36,10 @@ Tweet_ID,Sentiment,Tweet
 ...
 ```
 
-### Test Dataset
+### Test Dataset is expected to be a CSV file with the following structure:
 - `Tweet_ID`: A unique integer identifying the tweet.
 - `Tweet`: The content of the tweet.
 
-The test dataset is expected to be a CSV file with the following structure:
 ```
 Tweet_ID,Tweet
 3,"Cauliflower is great!"
