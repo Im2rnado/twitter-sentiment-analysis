@@ -12,16 +12,15 @@ Several machine learning models are used to analyze the sentiment of the tweets:
 6. <b>Support Vector Machine (SVM)</b>: A powerful model that finds the hyperplane which best separates the data into classes.
 7. <b>Natural Language Processing (NLP) with RoBERTa</b>: A transformer-based model specifically designed for understanding the context of text. We have chosen RoBERTa over BERT as it is trained on more tweet-like data.
 
-### Accuracy
-|Classifier         |BBOW_Train|BBOW_Val|TF-IDF_Train|TF-IDF_Val|
-|-------------------|----------|--------|------------|----------|
-|Logistic Regression|0.99975   |0.929   |0.9995      |0.932     |
-|KNN                |0.78825   |0.733   |0.562       |0.582     |
-|Decision Trees     |0.99975   |0.855   |0.99975     |0.845     |
-|Random Forest      |0.99975   |0.913   |0.99975     |0.906     |
-|XG Boost           |0.99225   |0.898   |0.997       |0.893     |
-|SVC                |0.99675   |0.924   |0.987       |0.934     |
-|RoBERTa            |0.99      |0.99    |0.99        |0.99      |
+|Classifier         |BBOW Accuracy|TF-IDF Accuracy|
+|-------------------|-------------|---------------|
+|Logistic Regression|0.929        |0.932          |
+|KNN                |0.733        |0.582          |
+|Decision Trees     |0.855        |0.845          |
+|Random Forest      |0.913        |0.906          |
+|XG Boost           |0.898        |0.893          |
+|SVC                |0.924        |0.934          |
+|RoBERTa            |0.99         |0.99           |
 
 ## Dataset
 The dataset consists of tweets, labeled with a sentiment score:
