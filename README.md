@@ -26,8 +26,8 @@ Several machine learning models are used to analyze the sentiment of the tweets:
 
 ### Training Dataset is expected to be a CSV file with the following structure:
 - `Tweet_ID`: A unique integer identifying the tweet.
-- `Sentiment`: The sentiment of the tweet (1 for positive, 0 for negative).
 - `Tweet`: The content of the tweet.
+- `Sentiment`: The sentiment of the tweet (1 for positive, 0 for negative).
 
 ```
 Tweet_ID,Tweet,Sentiment
